@@ -1,20 +1,19 @@
 import React from "react";
-// import Banner from "../../components/banner/Banner";
-// import Footer from "../../components/footer/Footer";
-// import Gallery from "../../components/gallery/Gallery";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
 import Header from "../components/Header";
-// import imgHomeBanner from "../../assets/images/banner/homeBanner.png";
+import imgHomeBanner from "../images/homeBanner.png";
 
 const Home = () => {
   return (
     <div className="home">
-      {/* <Header />
+      <Header />
       <main>
         <Banner texte="Chez vous, partout et ailleurs" image={imgHomeBanner} />
         <Gallery />
       </main>
-      <Footer /> */}
-      <Header />
+      <Footer />
     </div>
   );
 };
